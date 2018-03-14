@@ -15,6 +15,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+   <distributionManagement>
+   <snapshotRepository>
+  <id>snapshot</id>
+  <url>http://localhost:8081/nexus-2.14.5-02/content/repositories/1/</url>
+  </snapshotRepository>
+   </distributionManagement>
   <build>
     <finalName>project</finalName>
   </build>
